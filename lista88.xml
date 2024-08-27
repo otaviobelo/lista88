@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="Manual XMLTV Example" generator-info-url="http://example.com">
+    
+    <!-- Canal EURO Channel -->
+    <channel id="euro.channel">
+        <display-name>EURO Channel</display-name>
+        <icon src="http://example.com/eurochannel-logo.png" />
+    </channel>
+
+    <!-- Canal Rede Minas -->
+    <channel id="rede.minas">
+        <display-name>Rede Minas</display-name>
+        <icon src="http://example.com/redeminas-logo.png" />
+    </channel>
+
+    <!-- Programação EURO Channel -->
+    <programme start="20240827060000 +0000" stop="20240827070000 +0000" channel="euro.channel">
+        <title>Morning News</title>
+        <desc>Latest news and updates from around the world.</desc>
+        <category>News</category>
+    </programme>
+
+    <programme start="20240827070000 +0000" stop="20240827090000 +0000" channel="euro.channel">
+        <title>Sports Hour</title>
+        <desc>Coverage of the latest sports events and highlights.</desc>
+        <category>Sports</category>
+    </programme>
+
+    <programme start="20240827090000 +0000" stop="20240827100000 +0000" channel="euro.channel">
+        <title>Movie: The Great Adventure</title>
+        <desc>An epic tale of exploration and discovery.</desc>
+        <category>Movie</category>
+    </programme>
+
+    <!-- Programação Rede Minas -->
+    <programme start="20240827060000 +0000" stop="20240827070000 +0000" channel="rede.minas">
+        <title>Bom Dia Minas</title>
+        <desc>Notícias matinais e atualizações de Minas Gerais.</desc>
+        <category>News</category>
+    </programme>
+
+    <programme start="20240827070000 +0000" stop="20240827080000 +0000" channel="rede.minas">
+        <title>Caminhos da Reportagem</title>
+        <desc>Documentários que exploram histórias interessantes do Brasil.</desc>
+        <category>Documentary</category>
+    </programme>
+
+    <programme start="20240827080000 +0000" stop="20240827090000 +0000" channel="rede.minas">
+        <title>Arte no Brasil</title>
+        <desc>Um olhar sobre a arte e a cultura brasileira.</desc>
+        <category>Art</category>
+    </programme>
+
+</tv>
